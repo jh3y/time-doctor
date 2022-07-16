@@ -16,6 +16,11 @@ Let's play! ʕ •ᴥ•ʔ
 ### Get involved!
 Got some ideas, hit me up here or somewhere else!
 
+### Development
+- `bun install`
+- Set up `localhost` keys with `mkcert install && mkcert localhost`
+- `bun run dev`
+
 ---
 
 Ideated by @jh3y 2022 ʕ·ᴥ·　ʔ

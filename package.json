@@ -1,0 +1,37 @@
+{
+  "name": "time-doctor",
+  "version": "0.0.0",
+  "description": "declarative CSS timeline composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rm -rf dist && parcel --no-source-maps --port 1987 --https --cert ./localhost.pem --key ./localhost-key.pem playground/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh3y/time-doctor.git"
+  },
+  "keywords": [
+    "animation",
+    "css",
+    "javascript",
+    "timeline",
+    "compose",
+    "composition",
+    "structure",
+    "transition",
+    "animations"
+  ],
+  "author": "jh3y <jh3y@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jh3y/time-doctor/issues"
+  },
+  "homepage": "https://github.com/jh3y/time-doctor#readme",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "open-props": "^1.4.3",
+    "parcel": "^2.6.2",
+    "prettier": "^2.7.1"
+  }
+}
